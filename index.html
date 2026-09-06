@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WDD 231 | Course Home Page</title>
+
+    <meta name="description" content="WDD 231 course home page">
+    <meta name="author" content="Patricia Harris">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/logo-index.svg" alt="WDD 231 logo">
+        </a>
+
+        <span>Patricia Harris</span>
+
+        <button id="menu-button" aria-label="Open navigation menu">
+            ☰
+        </button>
+    </header>
+
+    <nav id="nav-bar">
+        <ul class="navigation">
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="final/index.html">Final</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+
+            <p>
+                My name is Patricia Harris. I am a student studying web
+                development and software development. I enjoy learning how
+                websites are designed, developed, and made responsive.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+
+            <img src="images/profile-index.jpg"
+                 alt="Patricia Harris"
+                 width="300"
+                 height="400">
+        </section>
+
+        <section>
+            <h2>Web and Computer Programming Certificate</h2>
+
+            <div class="course-buttons">
+                <button id="all-courses">All</button>
+                <button id="cse-courses">CSE</button>
+                <button id="wdd-courses">WDD</button>
+            </div>
+
+            <div id="course-container">
+            </div>
+
+            <p>
+                Total Credits:
+                <span id="total-credits"></span>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/PatriciaaHarris" target="_blank" rel="noopener" aria-label="GitHub">
+                <img src="images/logo-github.svg" alt="GitHub">
+            </a>
+
+            <a href="https://www.linkedin.com/in/patricia-harrisc/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <img src="images/logo-linkedin.svg" alt="LinkedIn">
+            </a>
+
+            <a href="https://mail.google.com/?utm_source=chatgpt.com" target="_blank" rel="noopener" aria-label="Email">
+                <img src="images/email-logo.svg" alt="Email">
+            </a>
+        </div>
+
+        <p>
+            &copy; <span id="currentyear"></span> Patricia Harris | Chile
+        </p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
+
