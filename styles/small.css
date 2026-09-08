@@ -1,0 +1,214 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #1f3a5f;
+    color: white;
+}
+
+.logo img {
+    width: 60px;
+    height: auto;
+}
+
+header span {
+    flex: 1;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#menu-button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+    display: none;
+    background-color: #333;
+}
+
+nav.open {
+    display: block;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    border-bottom: 1px solid #555;
+}
+
+.navigation a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.navigation a:hover {
+    background-color: #555;
+}
+
+.navigation a.current {
+    background-color: #111;
+    font-weight: bold;
+}
+
+
+/* ---------- MAIN ---------- */
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h1 {
+    margin-top: 0;
+    color: #1f3a5f;
+}
+
+section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #1f3a5f;
+}
+
+
+/* ---------- STUDENT PHOTO ---------- */
+
+section img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ---------- COURSE BUTTONS ---------- */
+
+.course-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.course-buttons button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1f3a5f;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.course-buttons button:hover {
+    background-color: #555;
+}
+
+
+/* ---------- COURSE CARDS ---------- */
+
+#course-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.course-card {
+    padding: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.course-card h3 {
+    margin-top: 0;
+}
+
+.course-card.completed {
+    background-color: #dcebd8;
+    border: 2px solid #4d704d;
+}
+
+.course-card p {
+    margin: 0.4rem 0;
+}
+
+
+/* ---------- TOTAL CREDITS ---------- */
+
+#total-credits {
+    font-weight: bold;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    padding: 1.5rem 1rem;
+    background-color: #1f3a5f;
+    color: white;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-links a:hover {
+    opacity: 0.7;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}

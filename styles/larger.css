@@ -1,0 +1,91 @@
+@media screen and (min-width: 700px) {
+
+    /* ---------- HEADER ---------- */
+
+    header {
+        padding: 1rem 2rem;
+    }
+
+    header span {
+        font-size: 1.5rem;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+
+    /* ---------- NAVIGATION ---------- */
+
+    nav {
+        display: block;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li {
+        border-bottom: none;
+    }
+
+    .navigation a {
+        padding: 1rem 2rem;
+    }
+
+
+    /* ---------- MAIN ---------- */
+
+    main {
+        padding: 2rem;
+    }
+
+    main > section:nth-of-type(1) {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+    }
+
+    main > section:nth-of-type(2) {
+        text-align: center;
+    }
+
+
+    /* ---------- COURSE BUTTONS ---------- */
+
+    .course-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .course-buttons button {
+        min-width: 130px;
+    }
+
+
+    /* ---------- COURSE CARDS ---------- */
+
+    #course-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    footer {
+        padding: 2rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    #course-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    main {
+        padding: 2rem 3rem;
+    }
+}
