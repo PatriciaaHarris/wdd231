@@ -113,6 +113,7 @@ section {
 section h2 {
     margin-top: 0;
     color: #1f3a5f;
+    text-align: center;
 }
 
 
@@ -211,4 +212,22 @@ footer {
 
 footer p {
     margin: 0.5rem 0;
+}
+.course-buttons + #course-container + p {
+    text-align: center;
+}
+
+main > section:last-child h2 {
+    text-align: center;
+}
+.certificate-section {
+    border: none;
+    padding: 0;
+
+}
+
+.certificate-section h2 {
+    text-align: center;
+        
+
 }
