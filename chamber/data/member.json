@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Santiago Tech Solutions",
+    "address": "Av. Providencia 1234, Providencia, Santiago, Chile",
+    "phone": "+56 2 2345 6789",
+    "website": "https://example.com",
+    "image": "tech-solutions.webp",
+    "membership": 3,
+    "description": "Empresa dedicada al desarrollo de soluciones tecnológicas para pequeñas y medianas empresas."
+  },
+  {
+    "name": "Andes Marketing",
+    "address": "Av. Apoquindo 4500, Las Condes, Santiago, Chile",
+    "phone": "+56 2 2456 7890",
+    "website": "https://example.com",
+    "image": "andes-marketing.webp",
+    "membership": 3,
+    "description": "Agencia de marketing especializada en estrategias digitales y crecimiento empresarial."
+  },
+  {
+    "name": "Café Cordillera",
+    "address": "Av. Italia 850, Ñuñoa, Santiago, Chile",
+    "phone": "+56 9 8765 4321",
+    "website": "https://example.com",
+    "image": "cafe-cordillera.webp",
+    "membership": 2,
+    "description": "Cafetería local que ofrece café de especialidad, repostería y espacios para reuniones."
+  },
+  {
+    "name": "Constructora Mapocho",
+    "address": "Av. Santa María 2100, Santiago, Chile",
+    "phone": "+56 2 2567 8901",
+    "website": "https://example.com",
+    "image": "construc-mapocho.webp",
+    "membership": 2,
+    "description": "Empresa de construcción enfocada en proyectos residenciales y comerciales."
+  },
+  {
+    "name": "Consultores del Pacífico",
+    "address": "Huérfanos 1160, Santiago Centro, Santiago, Chile",
+    "phone": "+56 2 2678 9012",
+    "website": "https://example.com",
+    "image": "consult-pacifico.webp",
+    "membership": 1,
+    "description": "Servicios de consultoría para emprendedores y pequeñas empresas de Santiago."
+  },
+  {
+    "name": "Verde Santiago",
+    "address": "Av. Irarrázaval 3200, Ñuñoa, Santiago, Chile",
+    "phone": "+56 9 7654 3210",
+    "website": "https://example.com",
+    "image": "green.webp",
+    "membership": 1,
+    "description": "Negocio dedicado a productos sustentables y soluciones ecológicas para hogares y empresas."
+  },
+  {
+    "name": "Logística Metropolitana",
+    "address": "Av. Presidente Eduardo Frei Montalva 5800, Santiago, Chile",
+    "phone": "+56 2 2789 0123",
+    "website": "https://example.com",
+    "image": "logistic.webp",
+    "membership": 1,
+    "description": "Servicios de transporte y logística para empresas de la Región Metropolitana."
+  }
+]

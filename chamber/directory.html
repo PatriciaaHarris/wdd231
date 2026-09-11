@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Santiago Chamber of Commerce | Directory</title>
+
+    <meta name="description" content="Discover local businesses and organizations that are members of the Santiago Chamber of Commerce in Santiago, Chile.">
+    <meta name="author" content="Patricia Harris">
+
+    <meta property="og:title" content="Santiago Chamber of Commerce | Directory">
+    <meta property="og:description" content="Explore businesses and organizations that belong to the Santiago Chamber of Commerce.">
+    <meta property="og:image" content="https://example.com/chamber/images/santiago-chamber.webp">
+    <meta property="og:url" content="https://example.com/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../chamber/images/favicon.ico">
+
+    <link rel="stylesheet" href="../chamber/css/normalize.css">
+    <link rel="stylesheet" href="../chamber/css/small.css">
+    <link rel="stylesheet" href="../chamber/css/larger.css">
+
+    <script src="../chamber/js/directory.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        
+        <div class="header-content">
+
+            <div class="brand">
+                <img src="../chamber/images/logo-directory.svg" alt="Santiago Chamber of Commerce logo">
+                <div>
+                    <p class="site-name">Santiago</p>
+                    <p class="site-subtitle">Chamber of Commerce</p>
+                </div>
+            </div>
+
+            <button id="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+        </div>
+
+        <nav id="nav-bar">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a class="current" href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="directory-header">
+            <h1>Business Directory</h1>
+            <p>
+                Discover local businesses and organizations that are
+                members of the Santiago Chamber of Commerce.
+            </p>
+        </section>
+
+        <section class="view-buttons" aria-label="Directory display options">
+            <button id="grid-view" class="active">Grid</button>
+            <button id="list-view">List</button>
+        </section>
+
+        <section id="members-container" class="members-grid">
+            <!-- Member cards will be generated with JavaScript -->
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-info">
+            <h2>Santiago Chamber of Commerce</h2>
+
+            <p>Av. Providencia 1234</p>
+            <p>Santiago, Chile</p>
+            <p>Email: info@santiagochamber.example</p>
+            <p>Phone: +56 2 2345 6789</p>
+        </div>
+
+        <div class="social-media">
+
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                <img src="../chamber/images/logo-facebook.svg" alt="Facebook">
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <img src="../chamber/images/instagram-logo.svg" alt="instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <img src="../chamber/images/logo-linkedin.svg" alt="LinkedIn">
+
+            </a>
+
+        </div>
+
+        <div class="development-info">
+            <p>
+                &copy; <span id="currentyear"></span>
+                Santiago Chamber of Commerce
+            </p>
+
+            <p>Patricia | WDD 231</p>
+
+            <p>
+                Last Modification:
+                <span id="lastModified"></span>
+            </p>
+        </div>
+
+    </footer>
+
+</body>
+</html>

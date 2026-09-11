@@ -1,0 +1,77 @@
+/* ------------------------------
+   LARGE SCREEN
+------------------------------ */
+
+@media screen and (min-width: 700px) {
+
+    /* HEADER */
+
+    .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+
+    /* NAVIGATION */
+
+    #nav-bar {
+        display: block;
+        background-color: #0d2945;
+    }
+
+    .navigation {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navigation li {
+        border-top: none;
+    }
+
+    .navigation a {
+        padding: 1rem 1.25rem;
+    }
+
+
+    /* MAIN */
+
+    main {
+        padding: 2rem;
+    }
+
+
+    /* DIRECTORY GRID */
+
+    .members-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+
+    /* LIST */
+
+    .members-list .member-card {
+        grid-template-columns: 2fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .members-list .member-card h2 {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    .members-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
