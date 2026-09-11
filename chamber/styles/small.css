@@ -109,7 +109,9 @@ header {
 .navigation a.current {
     background-color: #1d6fa5;
 }
-
+ section h1{
+    text-align: left;
+ }
 
 /* ------------------------------
    MAIN

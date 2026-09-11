@@ -65,6 +65,31 @@
     .members-list .member-card h2 {
         font-size: 1rem;
     }
+
+        /* FOOTER */
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .footer-info {
+        text-align: left;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .development-info {
+        text-align: right;
+    }
+    
 }
 
 
@@ -73,5 +98,8 @@
     .members-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+    .development-info {
+    border-top: none;
+}
 
 }
