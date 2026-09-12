@@ -178,31 +178,100 @@ main {
     border-radius: 8px;
     padding: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    column-gap: 1rem;
 }
 
-.member-card img {
-    display: block;
-    width: 100%;
-    max-width: 180px;
-    height: 120px;
-    object-fit: contain;
-    margin: 0 auto 1rem;
-}
+/* ------------------------------
+   CARD TITLE
+------------------------------ */
 
 .member-card h2 {
+    grid-column: 1 / -1;
+    grid-row: 1;
+
     color: #12355b;
     font-size: 1.25rem;
-    margin-bottom: 0.75rem;
+    text-align: center;
+
+    margin: 0;
+    padding-bottom: 0.15rem;
 }
 
-.member-card p {
+
+/* ------------------------------
+   CARD TAGLINE
+------------------------------ */
+
+.member-card h2 + p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+
+    text-align: center;
+    color: #555555;
+    font-size: 0.9rem;
+
+    margin: 0;
+    padding-bottom: 0.75rem;
+
+    border-bottom: 2px solid #d4d8dc;
+}
+
+
+/* ------------------------------
+   CARD IMAGE
+------------------------------ */
+
+.member-card img {
+    grid-column: 1;
+    grid-row: 3 / span 4;
+
+    display: block;
+    width: 120px;
+    height: 100px;
+    object-fit: contain;
+
+    margin: 1rem auto 0;
+}
+
+
+/* ------------------------------
+   CARD INFORMATION
+------------------------------ */
+
+.member-card p:not(:first-of-type) {
+    grid-column: 2;
+
     margin-bottom: 0.5rem;
 }
+
+.member-card h2 + p + p {
+    grid-row: 3;
+    margin-top: 1rem;
+}
+
+.member-card h2 + p + p + p {
+    grid-row: 4;
+}
+
+.member-card h2 + p + p + p + p {
+    grid-row: 5;
+}
+
+.member-card h2 + p + p + p + p + p {
+    grid-row: 6;
+}
+
 
 .member-card a {
     color: #1769aa;
     font-weight: bold;
 }
+
+
+
 
 
 /* ------------------------------
@@ -258,7 +327,7 @@ footer h2 {
 .social-media {
     display: flex;
     justify-content: center;
-    gap: 1.5rem;
+    gap: 5rem;
     margin: 1.5rem 0;
 }
 
@@ -270,6 +339,10 @@ footer h2 {
 
 .social-media a:hover {
     text-decoration: underline;
+}
+.social-media img {
+    width: 50px;
+    height: 50px;
 }
 
 .development-info {

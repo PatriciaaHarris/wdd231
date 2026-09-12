@@ -2,64 +2,64 @@
   {
     "name": "Santiago Tech Solutions",
     "address": "Av. Providencia 1234, Providencia, Santiago, Chile",
-    "phone": "+56 2 2345 6789",
+    "phone": "+56 9 2345 6789",
     "website": "https://example.com",
     "image": "tech-solutions.webp",
     "membership": 3,
-    "description": "Empresa dedicada al desarrollo de soluciones tecnológicas para pequeñas y medianas empresas."
+    "description": "A company dedicated to developing technology solutions for small and medium-sized businesses."
   },
   {
     "name": "Andes Marketing",
     "address": "Av. Apoquindo 4500, Las Condes, Santiago, Chile",
-    "phone": "+56 2 2456 7890",
+    "phone": "+56 9 2456 7890",
     "website": "https://example.com",
     "image": "andes-marketing.webp",
     "membership": 3,
-    "description": "Agencia de marketing especializada en estrategias digitales y crecimiento empresarial."
+    "description": "A marketing agency specializing in digital strategies and business growth."
   },
   {
-    "name": "Café Cordillera",
+    "name": "Coffee Cordillera",
     "address": "Av. Italia 850, Ñuñoa, Santiago, Chile",
     "phone": "+56 9 8765 4321",
     "website": "https://example.com",
     "image": "cafe-cordillera.webp",
     "membership": 2,
-    "description": "Cafetería local que ofrece café de especialidad, repostería y espacios para reuniones."
+    "description": "A local coffee shop offering specialty coffee, pastries, and meeting spaces."
   },
   {
-    "name": "Constructora Mapocho",
+    "name": "Construction Mapocho",
     "address": "Av. Santa María 2100, Santiago, Chile",
-    "phone": "+56 2 2567 8901",
+    "phone": "+56 9 2567 8901",
     "website": "https://example.com",
     "image": "construc-mapocho.webp",
     "membership": 2,
-    "description": "Empresa de construcción enfocada en proyectos residenciales y comerciales."
+    "description": "A construction company focused on residential and commercial projects."
   },
   {
-    "name": "Consultores del Pacífico",
+    "name": "Pacific Consultants",
     "address": "Huérfanos 1160, Santiago Centro, Santiago, Chile",
-    "phone": "+56 2 2678 9012",
+    "phone": "+56 9 2678 9012",
     "website": "https://example.com",
     "image": "consult-pacifico.webp",
     "membership": 1,
-    "description": "Servicios de consultoría para emprendedores y pequeñas empresas de Santiago."
+    "description": "Consulting services for entrepreneurs and small businesses in Santiago."
   },
   {
-    "name": "Verde Santiago",
+    "name": "Green Santiago",
     "address": "Av. Irarrázaval 3200, Ñuñoa, Santiago, Chile",
     "phone": "+56 9 7654 3210",
     "website": "https://example.com",
     "image": "green.webp",
     "membership": 1,
-    "description": "Negocio dedicado a productos sustentables y soluciones ecológicas para hogares y empresas."
+    "description": "A business dedicated to sustainable products and eco-friendly solutions for homes and businesses."
   },
   {
-    "name": "Logística Metropolitana",
+    "name": "Logistics Metropolitana",
     "address": "Av. Presidente Eduardo Frei Montalva 5800, Santiago, Chile",
-    "phone": "+56 2 2789 0123",
+    "phone": "+56 9 2789 0123",
     "website": "https://example.com",
     "image": "logistic.webp",
     "membership": 1,
-    "description": "Servicios de transporte y logística para empresas de la Región Metropolitana."
+    "description": "Transportation and logistics services for businesses in the Santiago Metropolitan Region."
   }
 ]
