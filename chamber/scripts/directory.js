@@ -6,9 +6,7 @@ const gridButton = document.querySelector("#grid-view");
 const listButton = document.querySelector("#list-view");
 
 
-// ------------------------------
-// MOBILE NAVIGATION
-// ------------------------------
+
 
 menuButton.addEventListener("click", () => {
     navBar.classList.toggle("show");
@@ -23,9 +21,7 @@ menuButton.addEventListener("click", () => {
 });
 
 
-// ------------------------------
-// LOAD MEMBERS
-// ------------------------------
+
 
 async function getMembers() {
 
@@ -51,9 +47,7 @@ async function getMembers() {
 }
 
 
-// ------------------------------
-// DISPLAY MEMBERS
-// ------------------------------
+
 
 function displayMembers(members) {
 
@@ -103,9 +97,7 @@ function displayMembers(members) {
 }
 
 
-// ------------------------------
-// MEMBERSHIP LEVEL
-// ------------------------------
+
 
 function getMembershipLevel(level) {
 
@@ -121,10 +113,6 @@ function getMembershipLevel(level) {
 }
 
 
-// ------------------------------
-// GRID VIEW
-// ------------------------------
-
 gridButton.addEventListener("click", () => {
 
     membersContainer.classList.remove("members-list");
@@ -135,9 +123,7 @@ gridButton.addEventListener("click", () => {
 });
 
 
-// ------------------------------
-// LIST VIEW
-// ------------------------------
+
 
 listButton.addEventListener("click", () => {
 
@@ -149,24 +135,18 @@ listButton.addEventListener("click", () => {
 });
 
 
-// ------------------------------
-// FOOTER YEAR
-// ------------------------------
+
 
 document.querySelector("#currentyear").textContent =
     new Date().getFullYear();
 
 
-// ------------------------------
-// LAST MODIFIED
-// ------------------------------
+
 
 document.querySelector("#lastModified").textContent =
     document.lastModified;
 
 
-// ------------------------------
-// START
-// ------------------------------
+
 
 getMembers();
