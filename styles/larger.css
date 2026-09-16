@@ -1,7 +1,7 @@
 @media screen and (min-width: 700px) {
 
-    /* ---------- HEADER ---------- */
 
+    
     header {
         padding: 1rem 2rem;
     }
@@ -15,7 +15,7 @@
     }
 
 
-    /* ---------- NAVIGATION ---------- */
+
 
     nav {
         display: block;
@@ -35,7 +35,7 @@
     }
 
 
-    /* ---------- MAIN ---------- */
+
 
     main {
         padding: 2rem;
@@ -52,7 +52,7 @@
     
 
 
-    /* ---------- COURSE BUTTONS ---------- */
+
 
     .course-buttons {
         flex-direction: row;
@@ -64,7 +64,7 @@
     }
 
 
-    /* ---------- COURSE CARDS ---------- */
+
 
     #course-container {
         grid-template-columns: repeat(2, 1fr);
@@ -73,7 +73,7 @@
    
 
 
-    /* ---------- FOOTER ---------- */
+
 
     footer {
         padding: 2rem;
@@ -90,4 +90,62 @@
     main {
         padding: 2rem 3rem;
     }
+}
+
+
+
+
+@media (min-width: 700px) {
+
+    .hero {
+        margin-bottom: 3rem;
+    }
+
+    .hero > img {
+        height: 500px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+
+
+    .event-card {
+        padding: 2rem;
+    }
+
+
+
+    .weather-section {
+        grid-template-columns: 1fr 2fr;
+        align-items: stretch;
+    }
+
+    .current-weather,
+    .forecast {
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    #forecast-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+    .spotlights {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .spotlight-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
 }

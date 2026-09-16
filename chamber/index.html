@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Santiago Chamber of Commerce | Home</title>
+
+    <meta name="description" content="Welcome to the Santiago Chamber of Commerce. Discover local businesses, community events, weather information, and opportunities to connect with Santiago businesses.">
+    <meta name="author" content="Patricia Harris">
+
+    <meta property="og:title" content="Santiago Chamber of Commerce | Home">
+    <meta property="og:description" content="Connect with businesses and opportunities in Santiago, Chile through the Santiago Chamber of Commerce.">
+    <meta property="og:image" content="https://patriciaaharris.github.io/wdd231/chamber/images/fondo.webp">
+    <meta property="og:url" content="https://patriciaaharris.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script src="scripts/home.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-content">
+
+            <div class="brand">
+                <img src="images/logo-directory.svg" alt="Santiago Chamber of Commerce logo">
+
+                <div>
+                    <p class="site-name">Santiago</p>
+                    <p class="site-subtitle">Chamber of Commerce</p>
+                </div>
+            </div>
+
+            <button id="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+        </div>
+
+        <nav id="nav-bar">
+            <ul class="navigation">
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+
+        <section class="hero">
+
+            <img
+                src="images/fondo.webp"
+                alt="Santiago city skyline and mountains"
+            >
+
+            <div class="hero-content">
+                <h1>Santiago Chamber of Commerce</h1>
+
+                <p>
+                    Connecting businesses and building opportunities
+                    throughout Santiago.
+                </p>
+
+                <a class="hero-button" href="join.html">
+                    Join the Chamber
+                </a>
+            </div>
+
+        </section>
+
+
+
+        <section class="home-section events-section">
+
+            <h2>Current Events</h2>
+
+            <article class="event-card">
+
+                <h3>Santiago Business Networking</h3>
+
+                <p>
+                    Connect with local entrepreneurs and business owners
+                    at our next networking event.
+                </p>
+
+                <p>
+                    <strong>Date:</strong> October 15, 2026
+                </p>
+
+                <p>
+                    <strong>Location:</strong> Santiago Chamber of Commerce
+                </p>
+
+            </article>
+
+        </section>
+
+
+
+        <section class="home-section weather-section">
+
+            <h2>Weather in Santiago</h2>
+
+            <div class="current-weather">
+
+                <h3>Current Weather</h3>
+
+                <p>
+                    <strong>Temperature:</strong>
+                    <span id="current-temperature">Loading...</span>
+                </p>
+
+                <p>
+                    <strong>Conditions:</strong>
+                    <span id="weather-description">Loading...</span>
+                </p>
+
+            </div>
+
+
+            <div class="forecast">
+
+                <h3>Three-Day Forecast</h3>
+
+                <div id="forecast-container">
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <section class="home-section spotlights-section">
+
+            <h2>Business Spotlights</h2>
+
+            <div id="spotlights-container" class="spotlights">
+
+
+                
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-info">
+
+            <h2>Santiago Chamber of Commerce</h2>
+
+            <p>Av. Providencia 1234</p>
+            <p>Santiago, Chile</p>
+            <p>Email: info@santiagochamber.example</p>
+            <p>Phone: +56 2 2345 6789</p>
+
+        </div>
+
+
+        <div class="social-media">
+
+            <a href="https://www.facebook.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <img src="images/facebook-logo.svg" alt="Facebook">
+
+            </a>
+
+
+            <a href="https://www.instagram.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+
+                <img src="images/instagram-logo.svg" alt="Instagram">
+
+            </a>
+
+
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                <img src="images/github-logo.svg" alt="GitHub">
+            </a>
+
+        </div>
+
+
+        <div class="development-info">
+
+            <p>
+                &copy; <span id="currentyear"></span>
+                Santiago Chamber of Commerce
+            </p>
+
+            <p>Patricia | WDD 231</p>
+
+            <p>
+                Last Modification:
+                <span id="lastModified"></span>
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
