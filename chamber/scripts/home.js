@@ -91,10 +91,23 @@ function displayCurrentWeather(weather) {
     const description =
         weather.weather[0].description;
 
+    const iconCode =
+        weather.weather[0].icon;
+
     document.querySelector("#current-temperature").textContent =
         `${temperature} °C`;
 
     document.querySelector("#weather-description").textContent =
+        description;
+    
+
+    const weatherIcon =
+        document.querySelector("#weather-icon");
+
+    weatherIcon.src =
+        `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+
+    weatherIcon.alt =
         description;
 
 }

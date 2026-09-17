@@ -1,10 +1,7 @@
-/* ------------------------------
-   LARGE SCREEN
------------------------------- */
+
 
 @media screen and (min-width: 700px) {
 
-    /* HEADER */
 
     .header-content {
         max-width: 1200px;
@@ -17,7 +14,6 @@
     }
 
 
-    /* NAVIGATION */
 
     #nav-bar {
         display: block;
@@ -40,14 +36,12 @@
     }
 
 
-    /* MAIN */
 
     main {
         padding: 2rem;
     }
 
 
-    /* DIRECTORY GRID */
 
     .members-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -55,7 +49,7 @@
     }
 
 
-    /* LIST */
+    
 
     .members-list .member-card {
         grid-template-columns: 2fr 1fr 1fr;
@@ -66,7 +60,6 @@
         font-size: 1rem;
     }
 
-        /* FOOTER */
 
     footer {
         display: grid;
@@ -97,6 +90,72 @@
     gap: 5rem;
     margin: 1.5rem 0;
 }
+    #forecast-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .forecast-card {
+        flex: 1;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero {
+        margin-bottom: 3rem;
+    }
+
+    .hero > img {
+        height: 500px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+
+
+    .event-card {
+        padding: 2rem;
+    }
+
+
+
+    .weather-section {
+        grid-template-columns: 1fr 2fr;
+        align-items: stretch;
+    }
+
+    .current-weather,
+    .forecast {
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    #forecast-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+
+    .spotlights {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .spotlight-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
 
     
 }
