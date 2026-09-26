@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>""</title>
+    <title>Join | Santiago Chamber of Commerce</title>
 
-    <meta name="description" content="">
+    <meta name="description" content="Join the Santiago Chamber of Commerce and discover membership benefits, business opportunities, and resources for your organization.">
     <meta name="author" content="Patricia Harris">
 
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Join | Santiago Chamber of Commerce">
+    <meta property="og:description" content="Apply for membership in the Santiago Chamber of Commerce and connect with local business opportunities and resources.">
     <meta property="og:image" content="https://patriciaaharris.github.io/wdd231/chamber/images/logo-directory.svg">
-    <meta property="og:url" content="https://patriciaaharris.github.io/wdd231/chamber/PAGE-NAME.html">
     <meta property="og:type" content="website">
-
+    <meta property="og:url" content="https://patriciaaharris.github.io/wdd231/chamber/join.html">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -62,11 +61,190 @@
 
     </header>
 
-
+    
     <main>
 
+        <h1>Join the Santiago Chamber of Commerce</h1>
+
+        <div class="join-layout">
+
+            <form method="get" action="thankyou.html">
+
+                <label>
+                    First Name
+                    <input
+                        type="text"
+                        name="firstName"
+                        title="Enter your first name"
+                        autocomplete="given-name"
+                        required>
+                </label>
+
+                <label>
+                    Last Name
+                    <input
+                        type="text"
+                        name="lastName"
+                        title="Enter your last name"
+                        autocomplete="family-name"
+                        required>
+                </label>
+
+                <label>
+                    Organizational Title
+                    <input
+                        type="text"
+                        name="organizationTitle"
+                        title="Enter your organizational title"
+                        autocomplete="organization-title"
+                        pattern="[A-Za-zÀ-ÿ\s-]{7,}">
+                </label>
+
+                <label>
+                    Email Address
+                    <input
+                        type="email"
+                        name="email"
+                        title="Enter your email address"
+                        autocomplete="email"
+                        placeholder="example@email.com"
+                        required>
+                </label>
+
+                <label>
+                    Mobile Phone Number
+                    <input
+                        type="tel"
+                        name="phone"
+                        title="Enter your mobile phone number"
+                        autocomplete="tel"
+                        required>
+                </label>
+
+                <label>
+                    Business / Organization Name
+                    <input
+                        type="text"
+                        name="organization"
+                        title="Enter your business or organization name"
+                        autocomplete="organization"
+                        required>
+                </label>
+
+                <label>
+                    Membership Level
+                    <select name="membership" title="Select a membership level" required>
+                        <option value="" disabled selected>Select a membership level</option>
+                        <option value="np">NP Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label>
+                    Business / Organization Description
+                    <textarea
+                        name="description"
+                        title="Describe your business or organization"></textarea>
+                </label>
+
+                <input
+                    type="hidden"
+                    name="timestamp"
+                    id="timestamp">
+
+                <input type="submit" value="Submit Membership Application">
+
+            </form>
+
+
+            <section class="membership-levels">
+
+                <article class="membership-card">
+                    <h2>NP Membership</h2>
+                    <p>For nonprofit organizations.</p>
+                    <a href="#" class="modal-link" data-modal="np-modal">More Information</a>
+                </article>
+
+                <article class="membership-card">
+                    <h2>Bronze Membership</h2>
+                    <p>Essential benefits for growing businesses.</p>
+                    <a href="#" class="modal-link" data-modal="bronze-modal">More Information</a>
+                </article>
+
+                <article class="membership-card">
+                    <h2>Silver Membership</h2>
+                    <p>Additional visibility and business resources.</p>
+                    <a href="#" class="modal-link" data-modal="silver-modal">More Information</a>
+                </article>
+
+                <article class="membership-card">
+                    <h2>Gold Membership</h2>
+                    <p>Maximum visibility and premium benefits.</p>
+                    <a href="#" class="modal-link" data-modal="gold-modal">More Information</a>
+                </article>
+
+            </section>
+
+        </div>
+
+
+        <dialog id="np-modal">
+            <h2>NP Membership</h2>
+            <p>No membership fee for nonprofit organizations.</p>
+            <ul>
+                <li>Chamber directory listing</li>
+                <li>Community networking opportunities</li>
+                <li>Access to selected chamber events</li>
+            </ul>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+
+        <dialog id="bronze-modal">
+            <h2>Bronze Membership</h2>
+            <p>Basic membership benefits for local businesses.</p>
+            <ul>
+                <li>Chamber directory listing</li>
+                <li>Networking opportunities</li>
+                <li>Business training resources</li>
+                <li>Member event discounts</li>
+            </ul>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+
+        <dialog id="silver-modal">
+            <h2>Silver Membership</h2>
+            <p>Expanded benefits for businesses seeking greater visibility.</p>
+            <ul>
+                <li>All Bronze membership benefits</li>
+                <li>Additional training opportunities</li>
+                <li>Event sponsorship opportunities</li>
+                <li>Social media promotion</li>
+            </ul>
+            <button class="close-modal">Close</button>
+        </dialog>
+
+
+        <dialog id="gold-modal">
+            <h2>Gold Membership</h2>
+            <p>Premium benefits for organizations seeking maximum exposure.</p>
+            <ul>
+                <li>All Silver membership benefits</li>
+                <li>Premium advertising opportunities</li>
+                <li>Featured business spotlight</li>
+                <li>Priority event sponsorship opportunities</li>
+                <li>Exclusive networking opportunities</li>
+            </ul>
+            <button class="close-modal">Close</button>
+        </dialog>
 
     </main>
+
+
+
 
 
     <footer>
@@ -113,6 +291,7 @@
         </div>
 
     </footer>
+    <script src="scripts/join.js"></script>
 
 </body>
 </html>

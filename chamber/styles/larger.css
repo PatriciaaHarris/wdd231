@@ -167,8 +167,18 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .development-info {
-    border-top: none;
-    
-}
+        border-top: none;
+    }
+    .join-layout {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+        gap: 2rem;}
+
+    .membership-levels {
+        grid-column: 2;
+        grid-row: 1;
+    }
 
 }
+
+
