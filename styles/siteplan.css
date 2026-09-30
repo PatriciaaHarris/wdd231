@@ -1,0 +1,164 @@
+:root {
+    --dark-green: #2F5D50;
+    --cream: #F7F3E8;
+    --orange: #E58F3A;
+    --white: #FFFFFF;
+    --dark-text: #26332F;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--cream);
+    color: var(--dark-text);
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--dark-green);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+}
+
+main {
+    width: min(100% - 2rem, 900px);
+    margin: 2rem auto;
+}
+
+section {
+    background-color: var(--white);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 5px solid var(--orange);
+}
+
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+    color: var(--dark-green);
+}
+
+h2 {
+    border-bottom: 2px solid var(--orange);
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+}
+
+strong {
+    color: var(--dark-green);
+}
+
+li {
+    margin-bottom: 0.75rem;
+}
+
+
+.color-scheme {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.color-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.color-box {
+    width: 100%;
+    height: 80px;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
+
+.dark-green {
+    background-color: var(--dark-green);
+}
+
+.cream {
+    background-color: var(--cream);
+    border: 1px solid #ccc;
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+
+.font-example {
+    border-left: 4px solid var(--orange);
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.poppins-example {
+    font-family: "Poppins", sans-serif;
+}
+
+.opensans-example {
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.wireframe-placeholder {
+    border: 2px dashed var(--dark-green);
+    padding: 2rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    background-color: var(--cream);
+}
+
+footer {
+    background-color: var(--dark-green);
+    color: var(--white);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer p {
+    margin: 0.25rem;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    header {
+        padding: 3rem 1rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    main {
+        margin: 3rem auto;
+    }
+
+    section {
+        padding: 2rem;
+    }
+
+    .color-scheme {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
