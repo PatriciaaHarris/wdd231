@@ -667,3 +667,96 @@ dialog li {
 }
 
 
+
+.discover-grid {
+    display: grid;
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.discover-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.discover-card h2 {
+    margin-top: 0;
+}
+
+.discover-card figure {
+    margin: 0;
+}
+
+.discover-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.discover-card address {
+    margin: 1rem 0;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.discover-card p {
+    line-height: 1.5;
+}
+
+.discover-card button {
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.area-1 {
+    grid-area: card1;
+}
+
+.area-2 {
+    grid-area: card2;
+}
+
+.area-3 {
+    grid-area: card3;
+}
+
+.area-4 {
+    grid-area: card4;
+}
+
+.area-5 {
+    grid-area: card5;
+}
+
+.area-6 {
+    grid-area: card6;
+}
+
+.area-7 {
+    grid-area: card7;
+}
+
+.area-8 {
+    grid-area: card8;
+}
+
+.visit-message {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
