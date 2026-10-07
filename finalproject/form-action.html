@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Confirmation page for the Understanding Ultra-Processed Foods contact form.">
+
+    <title>Form Submission | Understanding Ultra-Processed Foods</title>
+
+    <link rel="icon" href="images/carrot-logo.svg">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <a class="site-brand" href="index.html">
+                <img src="images/carrot-logo.svg" alt="Carrot logo">
+                <span class="site-name">Understanding Ultra-Processed Foods</span>
+            </a>
+
+            <button
+                id="menu-button"
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-nav">
+                ☰
+            </button>
+
+            <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="food-guide.html">Food Guide</a>
+                    </li>
+
+                    <li>
+                        <a href="smart-choices.html">Smart Food Choices</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">Thank you</p>
+
+                    <h1>Form Submission</h1>
+
+                    <p>
+                        Your message has been received.
+                    </p>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="hero-visual-content">
+
+                        <img
+                            class="page-hero-image"
+                            src="images/person-using-a-laptop.jpg"
+                            alt="Notebook representing a submitted message">
+
+                        <p>
+                            Thank you for taking the time to share your feedback.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="confirmation-card">
+
+                    <h2>Thank you for your message</h2>
+
+                    <p>
+                        Here is the information you submitted:
+                    </p>
+
+                    <div class="confirmation-details">
+
+                        <p>
+                            <strong>Name:</strong>
+                            <span id="submitted-name"></span>
+                        </p>
+
+                        <p>
+                            <strong>Email:</strong>
+                            <span id="submitted-email"></span>
+                        </p>
+
+                        <p>
+                            <strong>Topic:</strong>
+                            <span id="submitted-topic"></span>
+                        </p>
+
+                        <p>
+                            <strong>Message:</strong>
+                        </p>
+
+                        <p id="submitted-message"></p>
+
+                    </div>
+
+                    <a
+                        class="button"
+                        href="index.html">
+                        Return Home
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <div>
+
+                <h2>Understanding Ultra-Processed Foods</h2>
+
+                <p>
+                    An educational website about food processing and
+                    everyday food choices.
+                </p>
+
+                <div class="social-media">
+
+                    <a href="#" aria-label="Facebook">
+                        <img
+                            src="images/facebook-logo.svg"
+                            alt="Facebook">
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <img
+                            src="images/instagram-logo.svg"
+                            alt="Instagram">
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <img
+                            src="images/github-logo.svg"
+                            alt="GitHub">
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <h2>Project Resources</h2>
+
+                <p>
+                    <a
+                        href="https://www.youtube.com/"
+                        target="_blank"
+                        rel="noopener">
+                        Project Video
+                    </a>
+                </p>
+
+                <p>
+                    <a href="references.html">References</a>
+                </p>
+
+            </div>
+
+            <div class="copyright">
+
+                <p>
+                    © <span id="current-year"></span>
+                    Understanding Ultra-Processed Foods
+                </p>
+
+                <p>
+                    Last Modified:
+                    <span id="last-modified"></span>
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script type="module">
+
+        const params = new URLSearchParams(window.location.search);
+
+        document.querySelector("#submitted-name").textContent =
+            params.get("name") || "Not provided";
+
+        document.querySelector("#submitted-email").textContent =
+            params.get("email") || "Not provided";
+
+        document.querySelector("#submitted-topic").textContent =
+            params.get("topic") || "Not provided";
+
+        document.querySelector("#submitted-message").textContent =
+            params.get("message") || "Not provided";
+
+    </script>
+
+</body>
+
+</html>

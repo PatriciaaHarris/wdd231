@@ -1,0 +1,148 @@
+@media screen and (min-width: 700px) {
+
+    h1 {
+        font-size: 2.6rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .section {
+        padding: var(--space-3xl) 0;
+    }
+
+    .header-inner {
+        grid-template-columns: auto 1fr;
+        min-height: 82px;
+    }
+
+    .site-name {
+        font-size: 1.15rem;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .primary-nav {
+        display: block;
+        grid-column: auto;
+        padding-bottom: 0;
+        justify-self: end;
+    }
+
+    .primary-nav ul {
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        gap: var(--space-xs);
+    }
+
+    .primary-nav a {
+        padding: var(--space-sm) var(--space-md);
+    }
+
+    .hero {
+        padding: 5rem 0;
+    }
+
+    .hero-content {
+        display: grid;
+        grid-template-columns: 1.4fr 0.6fr;
+        align-items: center;
+        gap: var(--space-2xl);
+    }
+
+    .hero-text {
+        margin-bottom: 0;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.5rem, 5vw, 4rem);
+    }
+
+    .hero-actions {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .hero-visual {
+        min-height: 260px;
+        padding: var(--space-xl);
+    }
+
+    .page-hero-image {
+        height: 260px;
+    }
+
+    .info-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .level-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr auto;
+        gap: var(--space-md);
+        align-items: end;
+    }
+
+    .control-group {
+        margin-bottom: 0;
+    }
+
+    .food-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .food-actions {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .comparison-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .form-container {
+        max-width: var(--content-width);
+        margin: 0 auto;
+    }
+
+    .form-container .button {
+        width: auto;
+    }
+
+    .reference-list {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .confirmation-card {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2.5rem;
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
+    .copyright {
+        grid-column: 1 / -1;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .food-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+
+    .hero-content {
+        grid-template-columns: 1.25fr 0.75fr;
+    }
+}

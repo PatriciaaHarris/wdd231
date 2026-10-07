@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Explore examples of minimally processed, processed, and ultra-processed foods with the Understanding Ultra-Processed Foods Food Guide.">
+
+    <title>Food Guide | Understanding Ultra-Processed Foods</title>
+
+    <link rel="icon" href="images/carrot-logo.svg">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script type="module" src="scripts/food-guide.js"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <a class="site-brand" href="index.html">
+                <img src="images/carrot-logo.svg" alt="Carrot logo">
+                <span class="site-name">Understanding Ultra-Processed Foods</span>
+            </a>
+
+            <button
+                id="menu-button"
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-nav">
+                ☰
+            </button>
+
+            <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="current" href="food-guide.html">Food Guide</a>
+                    </li>
+
+                    <li>
+                        <a href="smart-choices.html">Smart Food Choices</a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">Explore food examples</p>
+
+                    <h1>Food Guide</h1>
+
+                    <p>
+                        Explore examples of foods at different processing
+                        levels and learn how ingredients, preparation, and
+                        processing can affect the final product.
+                    </p>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="hero-visual-content">
+
+                        <img
+                            class="page-hero-image"
+                            src="images/guide-food-hero.jpeg"
+                            alt="A variety of fresh and packaged foods">
+
+                        <p>
+                            Compare foods and learn what makes them different.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">Search and explore</p>
+
+                    <h2>Food examples</h2>
+
+                    <p>
+                        Search by food name or ingredient, filter by category,
+                        or display only your favorite foods.
+                    </p>
+
+                </div>
+
+                <div class="controls">
+
+                    <div class="control-group">
+
+                        <label for="food-search">
+                            Search foods
+                        </label>
+
+                        <input
+                            id="food-search"
+                            type="search"
+                            placeholder="Search by food or ingredient">
+
+                    </div>
+
+                    <div class="control-group">
+
+                        <label for="category-filter">
+                            Category
+                        </label>
+
+                        <select id="category-filter">
+
+                            <option value="all">
+                                All categories
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="control-group checkbox-control">
+
+                        <label for="favorites-only">
+
+                            <input
+                                id="favorites-only"
+                                type="checkbox">
+
+                            Favorites only
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <p
+                    id="guide-status"
+                    class="status-message"
+                    aria-live="polite">
+                    Loading food information...
+                </p>
+
+                <div
+                    id="food-grid"
+                    class="food-grid">
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <dialog id="food-modal">
+
+        <div class="modal-content">
+
+            <button
+                id="close-modal"
+                class="modal-close"
+                type="button"
+                aria-label="Close food details">
+                ×
+            </button>
+
+            <div id="modal-body">
+
+                <h2 id="modal-title"></h2>
+
+            </div>
+
+        </div>
+
+    </dialog>
+
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <div>
+
+                <h2>Understanding Ultra-Processed Foods</h2>
+
+                <p>
+                    An educational website about food processing and
+                    everyday food choices.
+                </p>
+
+                <div class="social-media">
+
+                    <a href="#" aria-label="Facebook">
+                        <img
+                            src="images/facebook-logo.svg"
+                            alt="Facebook">
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <img
+                            src="images/instagram-logo.svg"
+                            alt="Instagram">
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <img
+                            src="images/github-logo.svg"
+                            alt="GitHub">
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <h2>Project Resources</h2>
+
+                <p>
+                    <a
+                        href="https://www.youtube.com/watch?v=Vf2FP2h7hoE"
+                        target="_blank"
+                        rel="noopener">
+                        Project Video
+                    </a>
+                </p>
+
+                <p>
+                    <a href="references.html">References</a>
+                </p>
+
+            </div>
+
+            <div class="copyright">
+
+                <p>
+                    © <span id="current-year"></span>
+                    Understanding Ultra-Processed Foods
+                </p>
+
+                <p>
+                    Last Modified:
+                    <span id="last-modified"></span>
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

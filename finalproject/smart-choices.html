@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Learn practical food label habits and compare foods to make more informed everyday food choices.">
+
+    <title>Smart Food Choices | Understanding Ultra-Processed Foods</title>
+
+    <link rel="icon" href="images/carrot-logo.svg">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script type="module" src="scripts/smart-choices.js"></script>
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <a class="site-brand" href="index.html">
+                <img src="images/carrot-logo.svg" alt="Carrot logo">
+                <span class="site-name">Understanding Ultra-Processed Foods</span>
+            </a>
+
+            <button
+                id="menu-button"
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-nav">
+                ☰
+            </button>
+
+            <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="food-guide.html">Food Guide</a>
+                    </li>
+
+                    <li>
+                        <a class="current" href="smart-choices.html">
+                            Smart Food Choices
+                        </a>
+                    </li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">Practical everyday habits</p>
+
+                    <h1>Smart Food Choices</h1>
+
+                    <p>
+                        Use simple label-reading habits and food comparisons
+                        to make informed choices without needing a perfect
+                        diet.
+                    </p>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="hero-visual-content">
+
+                        <img
+                            class="page-hero-image"
+                            src="images/man-reading-food-label.jpg"
+                            alt="Person reading a food package label">
+
+                        <p>
+                            A few simple habits can make labels easier to understand.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">Three useful habits</p>
+
+                    <h2>Read beyond the front of the package</h2>
+
+                    <p>
+                        Packaging can highlight specific features, but the
+                        ingredient list and nutrition information can provide
+                        additional context.
+                    </p>
+
+                </div>
+
+                <div class="info-grid">
+
+                    <article class="info-card">
+
+                        <h3>1. Check the ingredients</h3>
+
+                        <p>
+                            Look at what appears in the ingredient list and
+                            consider how many different ingredients are used.
+                        </p>
+
+                    </article>
+
+                    <article class="info-card">
+
+                        <h3>2. Compare similar foods</h3>
+
+                        <p>
+                            Comparing two similar products can make differences
+                            in ingredients and formulation easier to notice.
+                        </p>
+
+                    </article>
+
+                    <article class="info-card">
+
+                        <h3>3. Think about frequency</h3>
+
+                        <p>
+                            Consider how often a food appears in your routine
+                            rather than judging your entire diet from one food.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">Interactive comparison</p>
+
+                    <h2>Compare two foods</h2>
+
+                    <p>
+                        Select two foods to compare their category, processing
+                        level, ingredients, and everyday tips.
+                    </p>
+
+                </div>
+
+                <div class="comparison-grid">
+
+                    <div class="control-group">
+
+                        <label for="food-one">
+                            First food
+                        </label>
+
+                        <select id="food-one">
+                            <option value="">
+                                Loading foods...
+                            </option>
+                        </select>
+
+                    </div>
+
+                    <div class="control-group">
+
+                        <label for="food-two">
+                            Second food
+                        </label>
+
+                        <select id="food-two">
+                            <option value="">
+                                Loading foods...
+                            </option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div
+                    id="comparison-result"
+                    class="comparison-result"
+                    aria-live="polite">
+                    Loading comparison...
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">Personal checklist</p>
+
+                    <h2>Everyday label checklist</h2>
+
+                    <p>
+                        Use this checklist as a reminder when looking at
+                        packaged foods. Your selections are saved in this
+                        browser.
+                    </p>
+
+                </div>
+
+                <div class="checklist">
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            data-check="ingredients">
+                        I checked the ingredient list.
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            data-check="comparison">
+                        I compared similar products.
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            data-check="sugar">
+                        I considered added sugar or sweeteners.
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            data-check="frequency">
+                        I considered how often I eat this food.
+                    </label>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="callout">
+
+                    <h2>Keep the approach balanced</h2>
+
+                    <p>
+                        Food choices happen in real life. Learning to read
+                        labels can help you make decisions that fit your
+                        needs, preferences, budget, and routine.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section section-alt">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="eyebrow">Questions or feedback?</p>
+
+                    <h2>Contact form</h2>
+
+                    <p>
+                        Share a question or comment about the information
+                        presented on this website.
+                    </p>
+
+                </div>
+
+                <form
+                    class="form-container"
+                    action="form-action.html"
+                    method="get">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            id="name"
+                            name="name"
+                            type="text"
+                            required
+                            autocomplete="name">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            id="email"
+                            name="email"
+                            type="email"
+                            required
+                            autocomplete="email">
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="topic">
+                            Topic
+                        </label>
+
+                        <select
+                            id="topic"
+                            name="topic"
+                            required>
+
+                            <option value="">
+                                Select a topic
+                            </option>
+
+                            <option value="Food Processing">
+                                Food Processing
+                            </option>
+
+                            <option value="Food Guide">
+                                Food Guide
+                            </option>
+
+                            <option value="Smart Food Choices">
+                                Smart Food Choices
+                            </option>
+
+                            <option value="Website Feedback">
+                                Website Feedback
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            required></textarea>
+
+                    </div>
+
+                    <button
+                        class="button"
+                        type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <div>
+
+                <h2>Understanding Ultra-Processed Foods</h2>
+
+                <p>
+                    An educational website about food processing and
+                    everyday food choices.
+                </p>
+
+                <div class="social-media">
+
+                    <a href="#" aria-label="Facebook">
+                        <img
+                            src="images/facebook-logo.svg"
+                            alt="Facebook">
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <img
+                            src="images/instagram-logo.svg"
+                            alt="Instagram">
+                    </a>
+
+                    <a href="#" aria-label="GitHub">
+                        <img
+                            src="images/github-logo.svg"
+                            alt="GitHub">
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div>
+
+                <h2>Project Resources</h2>
+
+                <p>
+                    <a
+                        href="https://www.youtube.com/watch?v=lP7iJf3Tgn8"
+                        target="_blank"
+                        rel="noopener">
+                        Project Video
+                    </a>
+                </p>
+
+                <p>
+                    <a href="references.html">References</a>
+                </p>
+
+            </div>
+
+            <div class="copyright">
+
+                <p>
+                    © <span id="current-year"></span>
+                    Understanding Ultra-Processed Foods
+                </p>
+
+                <p>
+                    Last Modified:
+                    <span id="last-modified"></span>
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

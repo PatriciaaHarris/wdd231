@@ -1,0 +1,200 @@
+[
+    {
+        "id": "apple",
+        "name": "Apple",
+        "category": "Fruit",
+        "processingLevel": "Minimally processed",
+        "mainIngredients": "Apple",
+        "image": "images/apple.jpg",
+        "description": "A whole fruit that can be eaten with little or no preparation.",
+        "whyItMatters": "Whole fruits provide fiber, vitamins, minerals, and other nutrients without extensive processing.",
+        "everydayTip": "Keep apples available as an easy snack."
+    },
+    {
+        "id": "carrots",
+        "name": "Carrots",
+        "category": "Vegetable",
+        "processingLevel": "Minimally processed",
+        "mainIngredients": "Carrots",
+        "image": "images/carrots.jpeg",
+        "description": "A simple vegetable that can be eaten raw, cooked, or added to meals.",
+        "whyItMatters": "Vegetables can provide fiber and important vitamins and minerals while requiring little processing.",
+        "everydayTip": "Wash and cut carrots ahead of time for quick snacks."
+    },
+    {
+        "id": "oats",
+        "name": "Plain Oats",
+        "category": "Grain",
+        "processingLevel": "Minimally processed",
+        "mainIngredients": "Oats",
+        "image": "images/oats.webp",
+        "description": "Plain oats are a simple grain that can be prepared with milk, yogurt, fruit, or other foods.",
+        "whyItMatters": "Plain oats provide fiber and are less processed than many flavored instant breakfast products.",
+        "everydayTip": "Choose plain oats and add fruit for natural sweetness."
+    },
+    {
+        "id": "frozen-vegetables",
+        "name": "Frozen Vegetables",
+        "category": "Vegetable",
+        "processingLevel": "Minimally processed",
+        "mainIngredients": "Vegetables",
+        "image": "images/frozen-vegetables.jpg",
+        "description": "Frozen vegetables are cleaned and frozen to preserve them for later use.",
+        "whyItMatters": "Frozen vegetables can make it easier to include vegetables in meals without adding many ingredients.",
+        "everydayTip": "Keep a bag of frozen vegetables available for quick meals."
+    },
+    {
+        "id": "plain-yogurt",
+        "name": "Plain Yogurt",
+        "category": "Dairy",
+        "processingLevel": "Minimally processed",
+        "mainIngredients": "Milk and live cultures",
+        "image": "images/plain-yogurt.jpg",
+        "description": "Plain yogurt is made from milk fermented with live cultures.",
+        "whyItMatters": "Plain yogurt can provide protein and calcium without the added sugars found in many flavored varieties.",
+        "everydayTip": "Add fruit or oats to plain yogurt for flavor and texture."
+    },
+    {
+        "id": "eggs",
+        "name": "Eggs",
+        "category": "Protein",
+        "processingLevel": "Minimally processed",
+        "mainIngredients": "Egg",
+        "image": "images/eggs.jpeg",
+        "description": "Eggs are a minimally processed source of protein that can be prepared in many ways.",
+        "whyItMatters": "Eggs provide protein and several nutrients while requiring very little processing.",
+        "everydayTip": "Prepare boiled eggs ahead of time for a convenient protein-rich snack."
+    },
+    {
+        "id": "chickpeas",
+        "name": "Canned Chickpeas",
+        "category": "Legume",
+        "processingLevel": "Processed",
+        "mainIngredients": "Chickpeas, water, salt",
+        "image": "images/canned-chickpeas.jpg",
+        "description": "Canned chickpeas are cooked and preserved with water and usually some salt.",
+        "whyItMatters": "They are more processed than dried chickpeas but can still be a convenient source of plant protein and fiber.",
+        "everydayTip": "Rinse canned chickpeas to reduce excess sodium."
+    },
+    {
+        "id": "tuna",
+        "name": "Canned Tuna",
+        "category": "Protein",
+        "processingLevel": "Processed",
+        "mainIngredients": "Tuna, water or oil, salt",
+        "image": "images/canned-tuna.jpg",
+        "description": "Canned tuna is preserved to make it convenient and shelf-stable.",
+        "whyItMatters": "It can provide protein and other nutrients, although some varieties contain added salt or oil.",
+        "everydayTip": "Compare labels and choose options with ingredients you recognize."
+    },
+    {
+        "id": "cheese",
+        "name": "Cheese",
+        "category": "Dairy",
+        "processingLevel": "Processed",
+        "mainIngredients": "Milk, cultures, salt, enzymes",
+        "image": "images/cheese.jpg",
+        "description": "Cheese is made by processing milk with cultures, enzymes, and other ingredients depending on the variety.",
+        "whyItMatters": "Cheese can provide protein and calcium, but processing and sodium levels vary between products.",
+        "everydayTip": "Use cheese as part of a balanced meal rather than relying on it as the main ingredient."
+    },
+    {
+        "id": "whole-grain-bread",
+        "name": "Whole-Grain Bread",
+        "category": "Grain",
+        "processingLevel": "Processed",
+        "mainIngredients": "Whole-grain flour, water, yeast, salt",
+        "image": "images/whole-grain-bread.jpg",
+        "description": "Whole-grain bread is made by combining and baking several basic ingredients.",
+        "whyItMatters": "Whole grains can provide more fiber and nutrients than refined-grain breads.",
+        "everydayTip": "Check the ingredient list and look for whole grains near the beginning."
+    },
+    {
+        "id": "peanut-butter",
+        "name": "Natural Peanut Butter",
+        "category": "Nuts and Seeds",
+        "processingLevel": "Processed",
+        "mainIngredients": "Peanuts",
+        "image": "images/natural-peanut-butter.webp",
+        "description": "Natural peanut butter is made primarily from ground peanuts.",
+        "whyItMatters": "Products with a short ingredient list can be a simple way to include nuts and seeds in the diet.",
+        "everydayTip": "Look for peanut butter with little or no added sugar."
+    },
+    {
+        "id": "sweetened-cereal",
+        "name": "Sweetened Breakfast Cereal",
+        "category": "Breakfast Food",
+        "processingLevel": "Ultra-processed",
+        "mainIngredients": "Refined grains, sugar, flavorings, and additives",
+        "image": "images/sweetened-cereal.jpg",
+        "description": "Many sweetened breakfast cereals contain refined ingredients, added sugars, flavorings, and additives.",
+        "whyItMatters": "Highly processed cereals can make it easy to consume large amounts of added sugar without feeling very full.",
+        "everydayTip": "Compare cereals and consider choosing options with less added sugar and more fiber."
+    },
+    {
+        "id": "cookies",
+        "name": "Packaged Cookies",
+        "category": "Snack",
+        "processingLevel": "Ultra-processed",
+        "mainIngredients": "Refined flour, sugar, fats, flavorings, and additives",
+        "image": "images/packaged-cookies.jpg",
+        "description": "Packaged cookies are manufactured using several refined ingredients and additives.",
+        "whyItMatters": "They are designed for convenience and taste but may contain substantial amounts of added sugar and refined fats.",
+        "everydayTip": "Enjoy them occasionally and balance snacks with whole or minimally processed foods."
+    },
+    {
+        "id": "soft-drink",
+        "name": "Soft Drink",
+        "category": "Beverage",
+        "processingLevel": "Ultra-processed",
+        "mainIngredients": "Carbonated water, sweeteners, acids, flavorings, and additives",
+        "image": "images/soft-drink.jpeg",
+        "description": "Soft drinks are formulated beverages that commonly contain added sugar or non-sugar sweeteners.",
+        "whyItMatters": "Sugary drinks can add a significant amount of sugar without providing much nutritional value.",
+        "everydayTip": "Choose water more often and keep soft drinks as an occasional choice."
+    },
+    {
+        "id": "instant-noodles",
+        "name": "Instant Noodles",
+        "category": "Ready-to-Eat Meal",
+        "processingLevel": "Ultra-processed",
+        "mainIngredients": "Refined wheat flour, oils, salt, seasonings, and additives",
+        "image": "images/instant-noodles.jpg",
+        "description": "Instant noodles are manufactured for quick preparation and often include seasoning packets with many ingredients.",
+        "whyItMatters": "They can be high in sodium and may provide fewer nutrients than meals built from less processed ingredients.",
+        "everydayTip": "Add vegetables and a protein source if you choose instant noodles."
+    },
+    {
+        "id": "chicken-nuggets",
+        "name": "Chicken Nuggets",
+        "category": "Processed Meat",
+        "processingLevel": "Ultra-processed",
+        "mainIngredients": "Chicken, coating, oils, starches, seasonings, and additives",
+        "image": "images/chicken-nuggets.jpg",
+        "description": "Chicken nuggets are manufactured products made from chicken and a variety of coating and processing ingredients.",
+        "whyItMatters": "They can contain more sodium, refined ingredients, and additives than less processed chicken preparations.",
+        "everydayTip": "Choose simply prepared chicken more often when possible."
+    },
+    {
+        "id": "hot-dog",
+        "name": "Hot Dog",
+        "category": "Processed Meat",
+        "processingLevel": "Ultra-processed",
+        "mainIngredients": "Processed meat, water, salt, seasonings, and additives",
+        "image": "images/hot-dog.webp",
+        "description": "Hot dogs are processed meat products made with meat and additional ingredients for flavor, texture, and preservation.",
+        "whyItMatters": "Processed meats can contain significant amounts of sodium and other ingredients used during manufacturing.",
+        "everydayTip": "Enjoy processed meats less often and vary your protein sources."
+    },
+    {
+        "id": "chocolate-bar",
+        "name": "Chocolate Bar",
+        "category": "Sweet Snack",
+        "processingLevel": "Ultra-processed",
+        "mainIngredients": "Sugar, cocoa, fats, milk ingredients, flavorings, and additives",
+        "image": "images/chocolate-bar.webp",
+        "description": "Packaged chocolate bars often combine cocoa with added sugar, fats, flavorings, and other ingredients.",
+        "whyItMatters": "Chocolate bars can be high in added sugar and energy while providing limited nutritional value depending on the product.",
+        "everydayTip": "Enjoy chocolate in moderation and consider options with a higher cocoa content."
+    }
+]

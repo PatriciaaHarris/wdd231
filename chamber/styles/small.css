@@ -299,27 +299,7 @@ footer h2 {
     margin-bottom: 0.3rem;
 }
 
-.social-media {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    margin: 1.5rem 0;
-}
-
-.social-media a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.social-media a:hover {
-    text-decoration: underline;
-}
-.social-media img {
-    width: 50px;
-    height: 50px;
-}
-
+c
 .development-info {
     border-top: 1px solid rgba(255, 255, 255, 0.3);
     padding-top: 1rem;
@@ -329,7 +309,6 @@ footer h2 {
     margin-bottom: 0.4rem;
     font-size: 0.9rem;
 }
-/* Remove */
 
 .hero {
     position: relative;
