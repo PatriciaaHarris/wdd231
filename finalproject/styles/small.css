@@ -667,6 +667,7 @@ th {
     margin: 0 auto;
     display: grid;
     gap: var(--space-xl);
+    text-align: center;
 }
 
 .social-media {
@@ -695,3 +696,9 @@ th {
     border-top: 1px solid rgba(255, 255, 255, 0.25);
     padding-top: var(--space-md);
 }
+.social-media img {
+    width: var(--social-icon-size);
+    height: var(--social-icon-size);
+    filter: brightness(0) saturate(100%) invert(65%) sepia(70%) saturate(700%) hue-rotate(345deg);
+}
+
