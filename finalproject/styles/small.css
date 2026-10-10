@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap');
 
 :root {
     /* Colors */
@@ -7,8 +6,8 @@
     --deep-green: #1F4037;
     --cream: #F7F3E8;
     --white: #FFFFFF;
-    --orange: #E58F3A;
-    --orange-hover: #D47D28;
+    --orange: #A6530A;
+    --orange-hover: #854208;
     --dark-text: #1F2A26;
     --medium-text: #45544E;
     --light-green: #E8F0EC;
@@ -279,7 +278,10 @@ button {
 }
 
 .hero-visual p {
-    margin-bottom: 0;
+    background-color: rgb(31 64 55 / 90%);
+    color: var(--white);
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
 }
 
 /* Buttons */
